@@ -1,6 +1,9 @@
 import 'dart:io';
+import 'Book/book.dart';
+import 'Book/edit_book.dart';
 
 main(){
+  Editinfo eD = Editinfo();
    print("\nWlocme To AKS Labrary ^_^");
    print("-------------------------");
    print("Plase Enter The number To Choose: \n 1.Add New Book \n 2.Delete Book \n 3.Edit On Book \n 4.Viw Book information \n 5.Exit\n ");
@@ -9,6 +12,8 @@ main(){
    case 1: { 
     //Add
     print("Add Youe'r Book:");
+
+
    } 
    break; 
   
@@ -20,13 +25,14 @@ main(){
    case 3: { 
     //edit
    print("Edit on Youe'r Book:");
-
+    eD.edit();
 
    } 
    break; 
    case 4:{ 
     // viw Book information 
     print("Book Information");
+    
    } 
    break; 
   
