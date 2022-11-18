@@ -6,9 +6,10 @@ import 'Book/view_books.dart';
 main(){
   Editinfo eD = Editinfo();
   Viewinfoe v = Viewinfoe();
-   print("\n    \x1b[1;33mWlocme To AKS Labrary ^_^\x1b[0m");
+ while (true) {
+     print("\n    \x1b[1;33mWlocme To AKS Labrary ^_^\x1b[0m");
    print("---------------------------------");
-   stdout.write("Plase Enter The number To Choose: \n 1.Add New Book \n 2.Delete Book \n 3.Edit On Book \n 4.Viw Book information \n 5.Exit \n---------------------------------\n\x1b[1;34m Enter No:\x1b[0m ");
+   stdout.write("Plase Enter The number To Choose: \n 1.Add New Book \n 2.Viw Book information \n 3.Edit On Book \n 4.Delete Book \n 5.Exit \n---------------------------------\n\x1b[1;34m Enter No:\x1b[0m ");
    String? num = stdin.readLineSync();
    print("---------------------------------");
   switch(int.parse(num!)) { 
@@ -21,37 +22,37 @@ main(){
    break; 
   
    case 2: { 
+    print("Books Information");
+    v.viewinformation();
     //delete
-    print("Delete a Book:");
+    
    } 
    break; 
-   case 3: { 
-    //edit
+   case 3: { //Edit
    print("Edit on Youe'r Book:");
     eD.edit();
-    eD.edit2();
-
 
    } 
    break; 
    case 4:{ 
+    print("Delete a Book:");
     // viw Book information 
-    print("BookS Information");
-    v.viewinformation();
+    
     
    } 
    break; 
   
    case 5:{ 
     //Exit
-    print("Good Bye!");
+    print(" \x1b[1;32mGood Bye!\x1b[0m");
     exit(0);
    } 
       
    default: { 
-    print("Wrong choice -_-!");
+    print(" \x1b[1;31mWrong choice -_-!\x1b[0m");
    }
-   break; 
+  
 } 
+ }
 }
 
