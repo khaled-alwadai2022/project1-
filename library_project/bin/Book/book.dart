@@ -1,9 +1,6 @@
-import 'dart:io';
 
 abstract class Books {
-  List<Map<dynamic,dynamic>> bookList = [
-   
-   
+  List<Map<String,dynamic>> bookList = [ 
     {
     "ID" : "ID",
     "Name": "Book Title", 
@@ -15,7 +12,8 @@ abstract class Books {
     "Name": "Start with why", 
     "Author": "Simoin",
     "Price": 89, 
-    "Quantity": 13},
+    "Quantity": 13
+    },
 
     {
       "ID" : 2,
@@ -42,15 +40,15 @@ abstract class Books {
       "Name": "You don't know js",
       "Author": "kyle Simpson ",
       "Price": 39.9,
-      "Quantity": 9
+      "Quantity": 0
     },
   ];
 
-  add();
-  edit();
-  delete();
-  viewinformation();
-  
+  addBook();
+  editBook();
+  deleteBook();
+  viewBookInformation();
+  buyBook();
 }
 
 
