@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'book.dart';
 
 class Viewinfoe extends Books {
@@ -9,6 +8,7 @@ class Viewinfoe extends Books {
   delete() {}
 
 
+  @override
   viewinformation() {
     int?  inview= int.parse(stdin.readLineSync()!); 
     
