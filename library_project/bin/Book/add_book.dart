@@ -1,34 +1,62 @@
-import 'book.dart';
+// import 'dart:io';
 
-class AddBook extends Books {
-  @override
-  addBook() {
-    // TODO: implement addBook
-    throw UnimplementedError();
-  }
+// import 'book.dart';
 
-  @override
-  buyBook() {
-    // TODO: implement buyBook
-    throw UnimplementedError();
-  }
+// class AddBook extends Books {
+//   get i => null;
 
-  @override
-  deleteBook() {
-    // TODO: implement deleteBook
-    throw UnimplementedError();
-  }
+//   @override
+//   addBook() {
 
-  @override
-  editBook() {
-    // TODO: implement editBook
-    throw UnimplementedError();
-  }
+//       print("Please Enter the Book ID:");
+//         bookList[]
+//       print("Please Enter the Book Name:");
 
-  @override
-  viewBookInformation() {
-    // TODO: implement viewBookInformation
-    throw UnimplementedError();
-  }
+//       print("Please Enter the Book Author:");
+
+//       print("Please Enter the Book Price:");
+
+//       print("Please Enter the Book Quantity:");
+           
+
+//     }
+
+
+//     // print("enter author for the book");
+//     // bookList?.add({'author': stdin.readLineSync()!});
+
+//     // print("enter price for the book");
+//     // bookList?.add({'price': stdin.readLineSync()!});
+
+//     // print("enter quantity for the book");
+//     // bookList?.add({'quantity': stdin.readLineSync()!});
+
+//     // print("The book has been added");  
+//     }
+
+//   @override
+//   buyBook() {
+//     // TODO: implement buyBook
+//     throw UnimplementedError();
+//   }
+
+//   @override
+//   deleteBook() {
+//     // TODO: implement deleteBook
+//     throw UnimplementedError();
+//   }
+
+//   @override
+//   editBook() {
+//     // TODO: implement editBook
+//     throw UnimplementedError();
+//   }
+
+//   @override
+//   viewBookInformation() {
+//      for (int i = 0; i < bookList.length; i++ ) {
+//       print("${bookList[i]["ID"]}  |  ${bookList[i]["Name"  ]}  |  ${bookList[i]["Author"]}  |  ${bookList[i]["Price"]} | ${bookList[i]["Name"]} | ${bookList[i]["Quantity"]}\n");  
+//      }
+//   }
   
-}
+// }

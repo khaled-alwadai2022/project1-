@@ -5,11 +5,12 @@ main(){
   EditBookInfo editInfo = EditBookInfo();
   ViewBookinfoe viewInfo = ViewBookinfoe();
   SellingBooks sellBook = SellingBooks();
+  // AddBook add = AddBook();
   // AddBook ab = AddBook();
-  // DeleteBook deleteBook = DeleteBook();
+  DeleteBook deleteBook = DeleteBook();
 
  while (true) {
-     print("\n   \x1b[1;33mWlocme To AKS Labrary ^_^\x1b[0m");
+     print("\n   \x1b[1;33mWlocme To AKS Library ^_^\x1b[0m");
    print("---------------------------------");
    stdout.write("Plase Enter The number To Choose:");
    stdout.write("\n 1.Books Information \n 2.Add New Book \n 3.Edit Book information \n 4.Delete Book \n 5.Search for Book \n 6.Book for sell \n 7.Exit \n---------------------------------\n\x1b[1;34m Enter No: \x1b[0m");
@@ -24,6 +25,8 @@ main(){
 
     case 2:{
       print("Add Book:");
+      // add.addBook();
+      // add.viewBookInformation();
 
     } break;
 
@@ -34,7 +37,9 @@ main(){
     } break;
 
     case 4: {
-      print("Delete Book");
+      print("Delete Book:");
+      deleteBook.deleteBook();
+      deleteBook.viewBookInformation();
     } break;
 
     case 5: {
